@@ -6,12 +6,14 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="styly.css"></link>
     <title>Cars detailing</title>
-</head>
-<body class="bg-cover bg-no-repeat h-screen " style="background-image: url(obr/background.jpeg);">
     
+</head>
+
+<body>
+<div class="bg-cover absolute h-screen w-screen " style="background-image: url(obr/background.jpeg);">
     <nav class="absolute top-0 w-full bg-black p-4 bg-opacity-70" >
-        <div class="container  flex justify-between items-center mx-auto">
-            <a  class="text-white text-2xl font-semibold p-2 ">LOGO</a>
+        <div class="container flex justify-between items-center mx-auto">
+            <a  class="text-white text-2xl font-semibold p-2">LOGO</a>
             <ul class="flex gap-8">
               <li><a class="text-2xl font-semibold p-1">Služby</a></li>
               <li><a class="text-2xl font-semibold p-1">Galerie</a></li>
@@ -22,17 +24,36 @@
     </nav>
    
     <div class="absolute inset-0 flex justify-center items-center">
-      <div class="h-2/5 w-3/4 sm:w-1/2 bg-black rounded-3xl bg-opacity-70 p-4" >
-          <h1 class="text-5xl text-center text-white font-bold m-8 mt-8">
+        <div class="h-2/5 w-3/4 sm:w-1/2 bg-black rounded-3xl bg-opacity-70 p-4" >
+             <h1 class="text-5xl text-center text-white font-bold m-8 mt-8">
               Detailní čistění interiérů i exteriérů všech vozidel.
-          </h1>
-          <div class="mt-10 flex justify-center items-center">
-              <button class="text-2xl w-40 rounded-full bg-yellow-400 mr-6 p-1 font-semibold">Naše služby</button>
-              <button class="text-2xl w-40 rounded-full bg-yellow-400 ml-6 p-1 font-semibold">Kontakt</button>
-          </div>
-      </div>
-  </div>
+             </h1>
+            <div class="flex mt-10  justify-center items-center">
+              <button class="text-2xl w-40 rounded-full bg-yellow-400 mr-6 p-1 font-semibold"> <a href="Sluzby.html">Naše služby</a></button>
+              <button class="text-2xl w-40 rounded-full bg-yellow-400 ml-6 p-1 font-semibold"><a href="Kontakt.html">Kontakt</a></button>
+            </div>
+        </div>
+    </div>
+    <div class="  inset-y-full relative bg-black w-screen h-12"></div>
+    <div class="bg-black relative  p-4 mt-10 w-screen flex flex-col justify-center inset-y-full h-20 bg-opacity-70 ">
+        <h1 class="text-3xl justify-center text-yellow-400 font-bold ml-14">Co od nás můžete očekávat?</h1>
+    </div>
+    <div  class="bg-black container inset-y-full bg-opacity-70 relative w-full mx-auto mt-8 heightcustom">
+        <div class="w-full h-1/2 container bg-red-300">
+            
+            
+
+        </div>
+        <div class="w-full h-1/2 bg-blue-300">
+            
+
+        </div>
+    </div>
+</div> 
 
     
+
+
+
 </body>
 </html>
